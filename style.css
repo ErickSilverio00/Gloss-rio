@@ -1,0 +1,51 @@
+* {
+    margin: 1;
+    padding: 0;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+
+header h1 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+header h2 {
+    margin-bottom: 3%;
+}
+
+body {
+    background-image: url(assets/campo-society-goiania_capa-1024x682.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 50%;
+    margin-bottom: 2%;
+}
+
+.container dl {
+    margin-bottom: 5%;
+}
+
+.container dd {
+    margin-bottom: 5%;
+}
+
+
+.referencias {
+    
+    margin-bottom: 3%;
+}
+
+.redes {
+    margin-left: 85%;
+}
+
+.redes ul  {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
