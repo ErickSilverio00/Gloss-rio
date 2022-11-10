@@ -1,6 +1,17 @@
 * {
     margin: 1;
     padding: 0;
+}
+
+body {
+    background-image: url(assets/campo-society-goiania_capa-1024x682.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip:border-box;
+    background-attachment:fixed;
+}
+
+* body {
     font-family: 'Abril Fatface', cursive;
     color: white;
 }
@@ -12,14 +23,6 @@ header h1 {
 
 header h2 {
     margin-bottom: 3%;
-}
-
-body {
-    background-image: url(assets/campo-society-goiania_capa-1024x682.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip:border-box;
-    background-attachment:fixed;
 }
 
 .container {
