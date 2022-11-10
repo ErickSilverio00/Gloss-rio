@@ -17,8 +17,9 @@ header h2 {
 body {
     background-image: url(assets/campo-society-goiania_capa-1024x682.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background-size: cover;
+    background-clip:border-box;
+    background-attachment:fixed;
 }
 
 .container {
@@ -49,3 +50,4 @@ body {
     display: flex;
     align-items: center;
 }
+
