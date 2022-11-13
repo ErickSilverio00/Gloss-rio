@@ -7,12 +7,12 @@ body {
     background-image: url(assets/campo-society-goiania_capa-1024x682.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-clip:border-box;
+    background-position: center;
     background-attachment:fixed;
 }
 
 * body {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     color: white;
 }
 
@@ -44,20 +44,8 @@ header h2 {
     margin-bottom: 3%;
 }
 
-.redes {
-    margin-left: 85%;
-}
-
 .redes ul  {
     list-style: none;
     display: flex;
     align-items: center;
-}
-
-@media (min-width: 100px) {
-    body {
-        max-width: 2200px;
-        flex-direction:row;
-        flex-wrap: wrap;
-    }
 }
